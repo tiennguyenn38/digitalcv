@@ -1,0 +1,223 @@
+@media (max-width: 600px) {
+  .bg-grey {
+    margin: auto;
+  }
+  #banner h1 {
+    font-size: 14px;
+  }
+  #banner span {
+    font-size: 12px;
+    left: 46%;
+    top: 68%;
+    color: black;
+  }
+  .nav-bar-img {
+    display: none;
+  }
+  .navbar-container {
+    display: flex !important;
+    flex-direction: column;
+    margin-left: 0 !important;
+
+    justify-items: stretch;
+    font-size: 10px;
+  }
+  .nav-info,
+  .nav-background,
+  .nav-certification,
+  .nav-projects {
+    padding-left: 8px;
+    border: none;
+    margin-left: 100px;
+  }
+  .nav-certification {
+    grid-column: 3/4;
+  }
+  #nav-bar {
+    margin: 0;
+  }
+  .nav-name {
+    padding: 0;
+    font-size: smaller;
+  }
+  .nav-bar-icon {
+    padding: 0 !important;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5em;
+  }
+  .target {
+    margin-left: 0;
+  }
+  .target-content {
+    text-align: justify;
+  }
+  #personal-info {
+    margin: 0;
+  }
+  #personal-info h2 {
+    margin-left: 45px;
+    margin-bottom: 10px;
+  }
+  .check {
+    margin-top: 5px;
+  }
+  .job-info-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    padding: 0;
+    margin-left: 0;
+  }
+  .exp-company {
+    margin: 10%;
+    padding: 0;
+    width: 80%;
+  }
+  .skills {
+    width: 80%;
+  }
+
+  .hobby-content {
+    padding: 0;
+  }
+  #certificate {
+    width: 100%;
+
+    margin-bottom: 1em;
+  }
+  .cert-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .cert-web,
+  .cert-javascript,
+  .cert-database {
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+  .web {
+    border-right: none;
+  }
+  .cert-img {
+    width: 20%;
+    height: 6em;
+    margin-top: 1em !important;
+  }
+  .database {
+    padding-top: 0;
+    margin-top: 1em;
+  }
+  #project {
+    margin-left: 3em;
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-img {
+    padding-bottom: 0;
+  }
+  .web-content {
+    margin-right: 10%;
+  }
+  .project1,
+  .project2 {
+    margin-bottom: 4em;
+  }
+  .footer-content {
+    padding: 45px;
+    font-size: 20px;
+    gap: 60px;
+  }
+
+  /* digital-CV */
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+  /* reorder flex */
+  .goal {
+    order: 1;
+  }
+  .team {
+    order: 3;
+  }
+  .scopes {
+    order: 2;
+  }
+  .primary {
+    order: 4;
+  }
+  .timeline {
+    order: 5;
+  }
+
+  /* goal */
+  .goal {
+    margin-top: 25px;
+  }
+  .goal1,
+  .goal2,
+  .goal3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .goal-icon,
+  .team-icon {
+    padding: 0 150px !important;
+  }
+  .goal-content {
+    margin: 0 20px;
+  }
+  .goal1,
+  .goal2 {
+    border-bottom: 1px solid #000;
+  }
+  .goal2 i,
+  .goal3 i {
+    margin-top: 15px;
+  }
+  .scopes {
+    height: 400px;
+  }
+  .scopes-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .in-grid,
+  .out-grid {
+    margin-right: 40px;
+  }
+  .in {
+    margin-bottom: 10px;
+  }
+  .in-content,
+  .out-content {
+    text-align: justify;
+  }
+
+  /* team */
+  .member1,
+  .member2,
+  .member3,
+  .member4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .member-content {
+    margin-left: 50px;
+  }
+}

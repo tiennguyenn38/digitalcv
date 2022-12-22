@@ -1,0 +1,730 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+/* Banner */
+#banner {
+  position: relative;
+  text-align: center;
+  color: #000;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#banner h1 {
+  font-size: 30px;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#banner span {
+  font-size: 20px;
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  color: rgb(61, 66, 70);
+}
+.page-banner {
+  width: 100%;
+}
+/* Nav bar */
+#nav-bar .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 20px;
+
+  position: relative;
+}
+
+.nav-name {
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  font-size: larger;
+  padding-left: 50px;
+}
+
+#nav-bar .nav-bar-icon {
+  color: #199cdb;
+  align-items: center;
+  padding-right: 10px;
+  font-size: larger;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  font-size: 14px;
+  display: inline-block;
+}
+#nav-bar {
+  width: 100%;
+  margin-right: 0;
+  position: relative;
+}
+.nav-bar-img {
+  position: absolute;
+  left: 40%;
+  top: -20%;
+}
+.nav-bar-img img {
+  border-radius: 50%;
+  border: solid 10px #fff;
+}
+.nav-certification {
+  grid-column: 4/5;
+}
+.nav-info,
+.nav-projects {
+  border-left: solid 2px #bbb;
+  border-right: solid 2px #bbb;
+}
+.nav-info,
+.nav-projects,
+.nav-background,
+.nav-certification {
+  padding-top: 30px;
+}
+
+/* Thông tin cá nhân */
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.target {
+  background: #f7f7f7;
+  margin-left: 50px;
+  align-items: center;
+
+  line-height: 1.8;
+  padding-top: 0px;
+  text-align: justify;
+}
+.target-title {
+  margin: 30px 20px 20px 50px;
+}
+.target-content {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+#personal-info {
+  margin-top: 0;
+  background: #eeecec;
+  margin-right: 120px;
+  margin-right: 10px;
+  align-items: center;
+  width: 100%;
+}
+.check {
+  margin-left: 50px;
+}
+.info {
+  padding-top: 10px;
+  display: inline-block;
+  padding-left: 30px;
+  list-style-type: none;
+  line-height: 1.8;
+}
+.info-title {
+  padding: 40px 0 20px 50px;
+}
+/* icon contact */
+.contact-icon {
+  padding-left: 30px;
+  padding-top: 20px;
+  color: rgb(43, 146, 230);
+}
+
+/* Grid  */
+.job-info-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  font-size: 16px;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+/* Kinh nghiệm */
+.experiment {
+  line-height: 1.8;
+  text-align: justify;
+  border: solid 2px rgb(221, 220, 220);
+  margin-top: 45px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 40px;
+}
+.exp-company,
+.skills,
+.english,
+.activity-content,
+.japanese {
+  width: 80%;
+  margin: 30px 10px 20px 20px;
+
+  text-align: justify;
+}
+.ic-toolbox,
+.ic-mic,
+.ic-tools-2,
+.ic-pencil,
+.ic-telescope {
+  padding-left: 10%;
+  padding-top: 10px;
+}
+.now {
+  background-color: rgb(43, 146, 230);
+  color: #000;
+  font-style: italic;
+  border: 2px solid rgb(43, 146, 230);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 25px;
+  width: 20%;
+  height: 30%;
+}
+/* Kỹ năng */
+
+.skill {
+  margin-top: 10%;
+  border: solid 2px rgb(221, 220, 220);
+}
+
+/* thẻ span cấp độ */
+.level {
+  display: flex;
+  gap: 5px;
+
+  align-self: center;
+  line-height: 1;
+}
+
+.high {
+  width: 30%;
+  height: 1px;
+  margin-top: 30px;
+  margin-left: 0px;
+  background-color: rgb(43, 146, 230);
+  border: 1px solid rgb(43, 146, 230);
+}
+.medium {
+  width: 30%;
+  height: 1px;
+  margin-top: 30px;
+  border: 1px solid rgb(43, 146, 230);
+}
+.low {
+  width: 30%;
+  height: 1px;
+  margin-top: 30px;
+  border: 1px solid rgb(43, 146, 230);
+}
+/* Ngôn ngữ */
+
+.language {
+  margin-top: 10%;
+  border: solid 2px rgb(221, 220, 220);
+}
+
+/* thẻ span cấp độ */
+.high-score {
+  width: 30%;
+  height: 1px;
+  margin-top: 30px;
+  margin-left: 0px;
+  background-color: rgb(43, 146, 230);
+  border: 1px solid rgb(43, 146, 230);
+}
+.medium-score {
+  width: 30%;
+  height: 1px;
+  margin-top: 30px;
+  border: 1px solid rgb(43, 146, 230);
+  background-color: rgb(43, 146, 230);
+}
+.low-score {
+  width: 30%;
+  height: 1px;
+  margin-top: 30px;
+  border: 1px solid rgb(43, 146, 230);
+}
+.medium-score-japanese {
+  width: 30%;
+  height: 1px;
+  margin-top: 30px;
+  border: 1px solid rgb(43, 146, 230);
+}
+/* Hoạt độngg */
+.activity-content {
+  line-height: 1.8;
+  text-align: justify;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.activity {
+  line-height: 1.8;
+  text-align: justify;
+  border: solid 2px rgb(221, 220, 220);
+  margin-top: 45px;
+}
+/* Học vấn */
+
+.education-content {
+  line-height: 1.8;
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.education {
+  line-height: 1.8;
+  text-align: justify;
+  border: solid 2px rgb(221, 220, 220);
+  margin-top: 45px;
+}
+
+/* Sở thích */
+
+.hobby {
+  border: solid 2px rgb(221, 220, 220);
+  margin-top: 45px;
+}
+
+.hobby-content {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.ic-megaphone,
+.ic-hotairballoon,
+.ic-basket,
+.ic-strategy {
+  border: solid rgb(43, 146, 230);
+  border-radius: 100%;
+  width: 15%;
+  padding: 10% 45% 10% 10%;
+  margin-top: 20px;
+  align-self: center;
+}
+.ic-strategy {
+  padding-right: 20px;
+}
+
+/* /* Chứng chỉ - giải thưởng */
+/* #certificate {
+  margin-top: 40px;
+  height: 100%;
+} */
+.cert-img {
+  width: 20%;
+  height: 80%;
+}
+/* grid layout */
+.cert-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  font-size: 14px;
+  column-gap: 0px;
+}
+.cert-title {
+  padding: 40px 0 40px 40px;
+}
+/* web */
+.cert-web {
+  display: flex;
+  margin-right: 0px;
+  border-bottom: 1px solid rgb(200, 134, 76);
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.web {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 0px;
+  line-height: 1.5;
+  border-right: 1px solid rgb(200, 134, 76);
+}
+/* javascript */
+.cert-javascript {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(200, 134, 76);
+}
+.javascript {
+  padding-left: 20px;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+/* database */
+.cert-database {
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.database {
+  padding-left: 20px;
+  padding-top: 40px;
+  line-height: 1.5;
+}
+.cert-database img {
+  margin-top: 20px;
+}
+
+/* Dự án */
+/* grid layout */
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repart(1fr, 6);
+  column-gap: 30px;
+}
+.project-img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.project-title {
+  padding-left: 10%;
+
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px;
+  margin-top: 0;
+}
+.web-content {
+  display: grid;
+  grid-template-rows: repeat(1fr, 5);
+}
+/* icon */
+.icon {
+  display: flex;
+  gap: 30px;
+  border: 1px solid #bbb;
+  /* width: 99.5%; */
+  justify-content: center;
+  padding-top: 10px;
+}
+.year {
+  background-color: rgb(43, 146, 230);
+  color: #000;
+  font-style: italic;
+  border: 1px solid rgb(43, 146, 230);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  width: 50px;
+  height: 30px;
+}
+/* mô tả project*/
+.project-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.task,
+.technology,
+.description {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #bbb;
+  padding: 5%;
+}
+.projects-title {
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid #bbb;
+  margin-bottom: 0;
+  padding-top: 20px;
+  border-top: 1px solid #bbb;
+  text-align: center;
+  justify-items: center;
+}
+.description-title,
+.task-title,
+.tech-title {
+  width: 30%;
+}
+.description-content,
+.task-content,
+.tech-content {
+  width: 70%;
+  text-align: justify;
+}
+
+.project1-technology {
+  padding-bottom: 20px;
+}
+.project3-technology {
+  padding-bottom: 18px;
+}
+/* footer */
+.footer-container {
+  width: 100%;
+  display: inline-block;
+
+  margin-top: 7%;
+}
+.footer-content {
+  display: flex;
+  list-style-type: none;
+  background: #f7f7f7;
+  padding: 40px 350px 40px 350px;
+  gap: 100px;
+  font-size: 25px;
+  text-decoration: none;
+}
+.socail-account {
+  display: flex;
+}
+.social-network a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+}
+.footer-icon {
+  color: #199cdb;
+}
+
+/* etra task */
+/* form */
+.form-control {
+  width: 70%;
+  margin: 0 20px 5px 50px;
+
+  padding-left: 20px;
+  line-height: 2.5;
+}
+.form-text {
+  padding-left: 50px;
+  color: rgb(142, 140, 140);
+}
+/* .btn {
+  margin-left: 50px;
+  margin-top: 20px;
+} */
+
+.hidden {
+  display: none !important;
+}
+
+.view-more {
+  margin-left: 50px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.view-less {
+  margin-left: 110px;
+  margin-bottom: 60px;
+  padding: 10px;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.info-item {
+  position: relative;
+}
+.info-item:hover .view-more {
+  display: block;
+}
+.info-item:hover .view-less {
+  display: block;
+}
+.less1,
+.less2,
+.less3,
+.less4,
+.less5,
+.less6,
+.more1,
+.more2,
+.more3,
+.more4,
+.more5,
+.more6 {
+  border: 2px solid #fff;
+  background-color: #fff;
+  transition-duration: 0.2s;
+  display: none;
+}
+.less1:hover,
+.less2:hover,
+.less3:hover,
+.less4:hover,
+.less5:hover,
+.less6:hover,
+.more1:hover,
+.more2:hover,
+.more3:hover,
+.more4:hover,
+.more5:hover,
+.more6:hover {
+  background-color: #008cba;
+  color: white;
+  border: 2px solid #008cba;
+  display: block;
+}
+
+/* Digital CV */
+.bg-blue {
+  background-color: #00f;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.1fr;
+  column-gap: 15px;
+  row-gap: 10px;
+}
+/* grid order */
+.goal {
+  grid-column: 1/3;
+  grid-row: 1;
+}
+.scopes {
+  grid-column: 1/3;
+  grid-row: 2;
+}
+.timeline {
+  grid-column: 4/5;
+  grid-row: 1/3;
+}
+.cv-content-title {
+  color: #00f;
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid rgb(72, 71, 71) 0 !important;
+}
+
+/* goal */
+.goal1,
+.goal2,
+.goal3,
+.member1,
+.member2,
+.member3,
+.member4,
+.timeline-flex,
+.primary1,
+.primary2 {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+.goal-icon,
+.fa-question-circle {
+  font-size: larger;
+  padding: 20px 35px;
+}
+.goal-content {
+  padding: 15px 30px;
+}
+
+/* member */
+
+.team-icon {
+  font-size: 28px;
+  padding: 15px;
+}
+.member-content p {
+  margin: 0;
+  padding-top: 5px;
+}
+.name {
+  padding-bottom: 20px;
+}
+.member-title {
+  font-weight: bold;
+}
+
+/* timeline */
+.timeline-number {
+  padding: 15px;
+  height: 55px;
+  margin: 5px;
+  border: 1px solid #000;
+  background-color: rgb(143, 83, 207);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.timeline-content {
+  border-bottom: 1px dotted rgb(116, 178, 232);
+  margin: 0;
+  padding-top: 5px;
+  margin-left: 20px;
+}
+.timeline-content p {
+  margin-top: 0;
+}
+/* scopes */
+.scopes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.in-grid,
+.out-grid {
+  margin-left: 40px;
+}
+.scopes-title {
+  font-weight: bold;
+}
+/* primary */
+.primary-content {
+  padding-top: 15px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.scopes,
+.primary {
+  height: 250px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+}
+.timeline {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  margin: 10px 0;
+}
+.goal,
+.team {
+  border-top: 1px solid #000;
+  margin: 10px 0;
+}
+
+/* previous */
+.previous {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+}
